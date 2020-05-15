@@ -1,0 +1,6 @@
+{
+  "api": "https://api.github.com",
+  "site": "https://github.com",
+  "clientId": "44194c55c207953ab783",
+  "gatekeeperUrl": "https://geekapp-gatekeeper.herokuapp.com"
+}
