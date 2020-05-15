@@ -8,3 +8,5 @@ test/lib
 _site
 site
 npm-debug.log
+.idea/
+package-lock.json
