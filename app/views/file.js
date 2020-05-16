@@ -801,9 +801,6 @@ module.exports = Backbone.View.extend({
                 content: p.content
               });
 
-              console.log('CONTENT:');
-              console.log(p.content);
-
               // Handle nested layouts
               if (meta && meta.layout) q.defer(getLayout.bind(this));
 
