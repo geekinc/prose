@@ -801,6 +801,9 @@ module.exports = Backbone.View.extend({
                 content: p.content
               });
 
+              console.log('CONTENT:');
+              console.log(p.content);
+
               // Handle nested layouts
               if (meta && meta.layout) q.defer(getLayout.bind(this));
 
@@ -824,9 +827,6 @@ module.exports = Backbone.View.extend({
     q.await((function() {
       var config = this.collection.config;
       var content = p.content;
-
-      // try to get the word count
-      console.log(content);
 
       // Set base URL to public site
       if (config && config.siteurl) {
