@@ -825,6 +825,9 @@ module.exports = Backbone.View.extend({
       var config = this.collection.config;
       var content = p.content;
 
+      // try to get the word count
+      console.log(content);
+
       // Set base URL to public site
       if (config && config.siteurl) {
         content = content.replace(/(<head(?:.*)>)/, (function() {
